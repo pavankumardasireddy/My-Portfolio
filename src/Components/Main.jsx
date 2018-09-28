@@ -11,9 +11,9 @@ class Main extends Component {
                             <div className="page-header-image" data-parallax="true" style={{backgroundImage: 'url("images/cc-bg-1.jpg")'}} />
                             <div className="container">
                                 <div className="content-center">
-                                    <div className="cc-profile-image"><a href="#"><img src="images/anthony.jpg" alt="Image" /></a></div>
+                                    <div className="cc-profile-image"><a href="#"><img src="images/PavanKumar.jpg" alt="Image" /></a></div>
                                     <div className="h2 title">Pavan Kumar Dasireddy</div>
-                                    <p className="category text-white">Web Developer, Graphic Designer,  Photographer</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+                                    <p className="category text-white">Fullstack Developer, Travel Lover</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
                                 </div>
                             </div>
                             <div className="section">
@@ -31,7 +31,7 @@ class Main extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="card-body">
                             <div className="h4 mt-0 title">About</div>
-                            <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
+                            <p>Hello! I am Pavankumar. Web Developer, Graphic Designer and Photographer.</p>
                             <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
                             </div>
                         </div>
@@ -40,23 +40,23 @@ class Main extends Component {
                             <div className="h4 mt-0 title">Basic Information</div>
                             <div className="row">
                                 <div className="col-sm-4"><strong className="text-uppercase">Age:</strong></div>
-                                <div className="col-sm-8">24</div>
+                                <div className="col-sm-8">23</div>
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase">Email:</strong></div>
-                                <div className="col-sm-8">anthony@company.com</div>
+                                <div className="col-sm-8">pavankumar.dasireddy@gmail.com</div>
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase">Phone:</strong></div>
-                                <div className="col-sm-8">+1718-111-0011</div>
+                                <div className="col-sm-8">+91 903-221-5508</div>
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase">Address:</strong></div>
-                                <div className="col-sm-8">140, City Center, New York, U.S.A</div>
+                                <div className="col-sm-8">61-3/5-6/75 (54), Bhoopesh Guptha Nagar,Krishna Lanaka, Vijayawada, AP, India.</div>
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase">Language:</strong></div>
-                                <div className="col-sm-8">English, German, French</div>
+                                <div className="col-sm-8">English, Hindi, Telugu</div>
                             </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ class Main extends Component {
                                     <figure className="cc-effect"><img src="images/project-1.jpg" alt="Image" />
                                     <figcaption>
                                         <div className="h4">Recent Project</div>
-                                        <p>Web Development</p>
+                                        <p>Tweak Videos</p>
                                     </figcaption>
                                     </figure></a></div>
                                 <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
@@ -261,7 +261,7 @@ class Main extends Component {
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-experience-header">
                             <p>March 2016 - Present</p>
-                            <div className="h5">CreativeM</div>
+                            <div className="h5">Tweak Videos</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
@@ -277,7 +277,7 @@ class Main extends Component {
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-experience-header">
                             <p>April 2014 - March 2016</p>
-                            <div className="h5">WebNote</div>
+                            <div className="h5">XYZies</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
@@ -293,7 +293,7 @@ class Main extends Component {
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-experience-header">
                             <p>April 2013 - February 2014</p>
-                            <div className="h5">WEBM</div>
+                            <div className="h5">Mudrantar</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
@@ -463,11 +463,11 @@ class Main extends Component {
                                 <div className="col-md-6">
                                     <div className="card-body">
                                     <p className="mb-0"><strong>Address </strong></p>
-                                    <p className="pb-2">140, City Center, New York, U.S.A</p>
+                                    <p className="pb-2">61-3/5-6/75 (54), Bhoopesh Guptha Nagar,Krishna Lanaka, Vijayawada, AP, India.</p>
                                     <p className="mb-0"><strong>Phone</strong></p>
-                                    <p className="pb-2">+1718-111-0011</p>
+                                    <p className="pb-2">+91 903-221-5508</p>
                                     <p className="mb-0"><strong>Email</strong></p>
-                                    <p>anthony@company.com</p>
+                                    <p>pavankumar.dasireddy@gmail.com</p>
                                     </div>
                                 </div>
                                 </div>

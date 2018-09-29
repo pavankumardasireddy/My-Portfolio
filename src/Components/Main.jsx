@@ -18,7 +18,16 @@ class Main extends Component {
                             </div>
                             <div className="section">
                                 <div className="container">
-                                    <div className="button-container"><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i className="fa fa-facebook" /></a><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i className="fa fa-twitter" /></a><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i className="fa fa-google-plus" /></a><a className="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i className="fa fa-instagram" /></a></div>
+                                    <div className="button-container">
+                                        <a className="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/pavankumardasireddy" target="_blank" rel="tooltip" title="Follow me on Facebook"><i className="fa fa-facebook" /></a>
+                                        <a className="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/PavankDasireddy" target="_blank" rel="tooltip" title="Follow me on Twitter"><i className="fa fa-twitter" /></a>
+                                        <a className="btn btn-default btn-round btn-lg btn-icon" href="https://plus.google.com/u/0/114895713471086873411" target="_blank" rel="tooltip" title="Follow me on Google+"><i className="fa fa-google-plus" /></a>
+                                        <a className="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/pavankumardasireddy/" target="_blank" rel="tooltip" title="Follow me on Instagram"><i className="fa fa-instagram" /></a>
+
+                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-linkedin" href="https://www.linkedin.com/in/pavan-kumar-dasireddy-233b57111/" target="_blank" rel="tooltip" title="Connect me on Linkedin"><i className="fa fa-linkedin" /></a>
+                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-stack-overflow" href="https://stackoverflow.com/users/9333951/pavan-kumar-dasireddy" target="_blank" rel="tooltip" title="Check me on Stackoverflow"><i className="fa fa-stack-overflow" /></a>
+                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-github" href="https://github.com/pavankumardasireddy" target="_blank" rel="tooltip" title="Follow me on github"><i className="fa fa-github" /></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -32,7 +41,7 @@ class Main extends Component {
                             <div className="card-body">
                             <div className="h4 mt-0 title">About</div>
                             <p>Hello! I am Pavankumar. Web Developer, Graphic Designer and Photographer.</p>
-                            <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
+                            <p>This is my online CV. Yet to edit. Come back soon for updates <a href="http://pavankumardasireddy.surge.sh/" target="_blank">Learn More</a></p>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12">
@@ -94,7 +103,7 @@ class Main extends Component {
                             </div>
                             </div>
                             <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">SASS</span>
+                            <div className="progress-container progress-primary"><span className="progress-badge">reactJs</span>
                                 <div className="progress">
                                 <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}} /><span className="progress-value">60%</span>
                                 </div>
@@ -110,9 +119,25 @@ class Main extends Component {
                             </div>
                             </div>
                             <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">Photoshop</span>
+                            <div className="progress-container progress-primary"><span className="progress-badge">NodeJs</span>
                                 <div className="progress">
                                 <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '70%'}} /><span className="progress-value">70%</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-md-6">
+                            <div className="progress-container progress-primary"><span className="progress-badge">VueJs</span>
+                                <div className="progress">
+                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}} /><span className="progress-value">40%</span>
+                                </div>
+                            </div>
+                            </div>
+                            <div className="col-md-6">
+                            <div className="progress-container progress-primary"><span className="progress-badge">MongoDB</span>
+                                <div className="progress">
+                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '50%'}} /><span className="progress-value">50%</span>
                                 </div>
                             </div>
                             </div>
@@ -150,8 +175,8 @@ class Main extends Component {
                                 <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                                     <figure className="cc-effect"><img src="images/project-2.jpg" alt="Image" />
                                     <figcaption>
-                                        <div className="h4">Startup Project</div>
-                                        <p>Web Development</p>
+                                        <div className="h4">XYZies</div>
+                                        <p>Web Admin</p>
                                     </figcaption>
                                     </figure></a></div>
                             </div>
@@ -159,15 +184,15 @@ class Main extends Component {
                                 <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                                     <figure className="cc-effect"><img src="images/project-3.jpg" alt="Image" />
                                     <figcaption>
-                                        <div className="h4">Food Order Project</div>
-                                        <p>Web Development</p>
+                                        <div className="h4">Tweak Videos</div>
+                                        <p>Web Application</p>
                                     </figcaption>
                                     </figure></a></div>
                                 <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
                                     <figure className="cc-effect"><img src="images/project-4.jpg" alt="Image" />
                                     <figcaption>
-                                        <div className="h4">Web Advertising Project</div>
-                                        <p>Web Development</p>
+                                        <div className="h4">Mudrantar</div>
+                                        <p>Web Application</p>
                                     </figcaption>
                                     </figure></a></div>
                             </div>
@@ -260,13 +285,13 @@ class Main extends Component {
                         <div className="row">
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-experience-header">
-                            <p>March 2016 - Present</p>
-                            <div className="h5">Tweak Videos</div>
+                            <p>June 2017 - Present</p>
+                            <div className="h5">Full-Stack Developer</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body">
-                            <div className="h5">Front End Developer</div>
+                            <div className="h5">Stellentsoft Pvt. Ltd.</div>
                             <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
                             </div>
                         </div>
@@ -276,13 +301,13 @@ class Main extends Component {
                         <div className="row">
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-experience-header">
-                            <p>April 2014 - March 2016</p>
-                            <div className="h5">XYZies</div>
+                            <p>March 2017 - June 2017</p>
+                            <div className="h5">Credo Web Solutions</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body">
-                            <div className="h5">Web Developer</div>
+                            <div className="h5">Credo Web Solutions</div>
                             <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
                             </div>
                         </div>
@@ -292,13 +317,13 @@ class Main extends Component {
                         <div className="row">
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-experience-header">
-                            <p>April 2013 - February 2014</p>
-                            <div className="h5">Mudrantar</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
+                            <p>Jan 2017 - March 2017</p>
                             <div className="h5">Intern</div>
+                            </div>
+                        </div>
+                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
+                            <div className="card-body">
+                            <div className="h5">Credo Web Solutions</div>
                             <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
                             </div>
                         </div>
@@ -313,14 +338,14 @@ class Main extends Component {
                         <div className="row">
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-education-header">
-                            <p>2013 - 2015</p>
-                            <div className="h5">Master's Degree</div>
+                            <p>2014 - 2017</p>
+                            <div className="h5">Master's Degree (MCA)</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body">
-                            <div className="h5">Master of Information Technology</div>
-                            <p className="category">University of Computer Science</p>
+                            <div className="h5">Master of Computer Applications</div>
+                            <p className="category">Prasad.V.Potluri Siddhartha Institute Of Technology.</p>
                             <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
                             </div>
                         </div>
@@ -330,14 +355,14 @@ class Main extends Component {
                         <div className="row">
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-education-header">
-                            <p>2009 - 2013</p>
+                            <p>2011 - 2014</p>
                             <div className="h5">Bachelor's Degree</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body">
-                            <div className="h5">Bachelor of Computer Science</div>
-                            <p className="category">University of Computer Science</p>
+                            <div className="h5">B.Sc (M.S.Cs)</div>
+                            <p className="category">Rutvik's Degree College</p>
                             <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
                             </div>
                         </div>
@@ -347,13 +372,30 @@ class Main extends Component {
                         <div className="row">
                         <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body cc-education-header">
-                            <p>2007 - 2009</p>
-                            <div className="h5">High School</div>
+                            <p>2009 - 2011</p>
+                            <div className="h5">Intermediate</div>
                             </div>
                         </div>
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body">
-                            <div className="h5">Science and Mathematics</div>
+                            <div className="h5">M.P.C</div>
+                            <p className="category">Aditya Jr & Degree College</p>
+                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="row">
+                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
+                            <div className="card-body cc-education-header">
+                            <p>2008 - 2009</p>
+                            <div className="h5">Secondary Education</div>
+                            </div>
+                        </div>
+                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
+                            <div className="card-body">
+                            <div className="h5">Secondary Education</div>
                             <p className="category">School of Secondary board</p>
                             <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
                             </div>

@@ -13,7 +13,7 @@ class Main extends Component {
                                 <div className="content-center">
                                     <div className="cc-profile-image"><a href="#"><img src="images/PavanKumar.jpg" alt="Image" /></a></div>
                                     <div className="h2 title">Pavan Kumar Dasireddy</div>
-                                    <p className="category text-white">Fullstack Developer, Travel Lover</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+                                    <p className="category text-white">Fullstack Developer, Freelancer, Gamer</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
                                 </div>
                             </div>
                             <div className="section">
@@ -40,7 +40,7 @@ class Main extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="card-body">
                             <div className="h4 mt-0 title">About</div>
-                            <p>Hello! I am Pavankumar. Web Developer, Graphic Designer and Photographer.</p>
+                            <p>Hello! I am Pavankumar. Full Stack Developer, Freelancer, Gamer.</p>
                             <p>This is my online CV. Yet to edit. Come back soon for updates <a href="http://pavankumardasireddy.surge.sh/" target="_blank">Learn More</a></p>
                             </div>
                         </div>
@@ -324,7 +324,7 @@ class Main extends Component {
                         <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
                             <div className="card-body">
                             <div className="h5">Credo Web Solutions</div>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            <p>this is description</p>
                             </div>
                         </div>
                         </div>

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import About from './About';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
 
-class Main extends Component {
+class Content extends Component {
   render() {
     return (
         <div className="page-content">
@@ -13,7 +16,7 @@ class Main extends Component {
                                 <div className="content-center">
                                     <div className="cc-profile-image"><a href="#"><img src="images/PavanKumar.jpg" alt="Image" /></a></div>
                                     <div className="h2 title">Pavan Kumar Dasireddy</div>
-                                    <p className="category text-white">Fullstack Developer, Freelancer, Gamer</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+                                    <p className="category text-white">Fullstack Developer, Freelancer, Gamer, Travel lover</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
                                 </div>
                             </div>
                             <div className="section">
@@ -34,249 +37,13 @@ class Main extends Component {
                     </div>
                 </div>
                 <div className="section" id="about">
-                    <div className="container">
-                    <div className="card" data-aos="fade-up" data-aos-offset={10}>
-                        <div className="row">
-                        <div className="col-lg-6 col-md-12">
-                            <div className="card-body">
-                            <div className="h4 mt-0 title">About</div>
-                            <p>Hello! I am Pavankumar. Full Stack Developer, Freelancer, Gamer.</p>
-                            <p>This is my online CV. Yet to edit. Come back soon for updates <a href="http://pavankumardasireddy.surge.sh/" target="_blank">Learn More</a></p>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-md-12">
-                            <div className="card-body">
-                            <div className="h4 mt-0 title">Basic Information</div>
-                            <div className="row">
-                                <div className="col-sm-4"><strong className="text-uppercase">Age:</strong></div>
-                                <div className="col-sm-8">23</div>
-                            </div>
-                            <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase">Email:</strong></div>
-                                <div className="col-sm-8">pavankumar.dasireddy@gmail.com</div>
-                            </div>
-                            <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase">Phone:</strong></div>
-                                <div className="col-sm-8">+91 903-221-5508</div>
-                            </div>
-                            <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase">Address:</strong></div>
-                                <div className="col-sm-8">61-3/5-6/75 (54), Bhoopesh Guptha Nagar,Krishna Lanaka, Vijayawada, AP, India.</div>
-                            </div>
-                            <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase">Language:</strong></div>
-                                <div className="col-sm-8">English, Hindi, Telugu</div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+                    <About />
                 </div>
                 <div className="section" id="skill">
-                    <div className="container">
-                    <div className="h4 text-center mb-4 title">Professional Skills</div>
-                    <div className="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                        <div className="card-body">
-                        <div className="row">
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">HTML</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '80%'}} /><span className="progress-value">80%</span>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">CSS</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}} /><span className="progress-value">75%</span>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">JavaScript</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}} /><span className="progress-value">60%</span>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">reactJs</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}} /><span className="progress-value">60%</span>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">Bootstrap</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}} /><span className="progress-value">75%</span>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">NodeJs</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '70%'}} /><span className="progress-value">70%</span>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">VueJs</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '40%'}} /><span className="progress-value">40%</span>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="col-md-6">
-                            <div className="progress-container progress-primary"><span className="progress-badge">MongoDB</span>
-                                <div className="progress">
-                                <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset={10} data-aos-duration={2000} role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '50%'}} /><span className="progress-value">50%</span>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+                    <Skills />
                 </div>
                 <div className="section" id="portfolio">
-                    <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 ml-auto mr-auto">
-                        <div className="h4 text-center mb-4 title">Portfolio</div>
-                        <div className="nav-align-center">
-                            <ul className="nav nav-pills nav-pills-primary" role="tablist">
-                            <li className="nav-item"><a className="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i className="fa fa-laptop" aria-hidden="true" /></a></li>
-                            <li className="nav-item"><a className="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i className="fa fa-picture-o" aria-hidden="true" /></a></li>
-                            <li className="nav-item"><a className="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i className="fa fa-camera" aria-hidden="true" /></a></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="tab-content gallery mt-5">
-                        <div className="tab-pane active" id="web-development">
-                        <div className="ml-auto mr-auto">
-                            <div className="row">
-                            <div className="col-md-6">
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                    <figure className="cc-effect"><img src="images/project-1.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Recent Project</div>
-                                        <p>Tweak Videos</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                    <figure className="cc-effect"><img src="images/project-2.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">XYZies</div>
-                                        <p>Web Admin</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                    <figure className="cc-effect"><img src="images/project-3.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Tweak Videos</div>
-                                        <p>Web Application</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
-                                    <figure className="cc-effect"><img src="images/project-4.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Mudrantar</div>
-                                        <p>Web Application</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="tab-pane" id="graphic-design" role="tabpanel">
-                        <div className="ml-auto mr-auto">
-                            <div className="row">
-                            <div className="col-md-6">
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                    <figure className="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Triangle Pattern</div>
-                                        <p>Graphic Design</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                    <figure className="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Abstract Umbrella</div>
-                                        <p>Graphic Design</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                    <figure className="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Cube Surface Texture</div>
-                                        <p>Graphic Design</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
-                                    <figure className="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Abstract Line</div>
-                                        <p>Graphic Design</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="tab-pane" id="Photography" role="tabpanel">
-                        <div className="ml-auto mr-auto">
-                            <div className="row">
-                            <div className="col-md-6">
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                    <figure className="cc-effect"><img src="images/photography-1.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Photoshoot</div>
-                                        <p>Photography</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                    <figure className="cc-effect"><img src="images/photography-3.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Wedding Photoshoot</div>
-                                        <p>Photography</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                    <figure className="cc-effect"><img src="images/photography-2.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Beach Photoshoot</div>
-                                        <p>Photography</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
-                                    <figure className="cc-effect"><img src="images/photography-4.jpg" alt="Image" />
-                                    <figcaption>
-                                        <div className="h4">Nature Photoshoot</div>
-                                        <p>Photography</p>
-                                    </figcaption>
-                                    </figure></a></div>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+                    <Portfolio />
                 </div>
                 <div className="section" id="experience">
                     <div className="container cc-experience">
@@ -526,4 +293,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default Content;

@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import Profile from './Profile';
+import FollowSection from './FollowSection';
 import About from './About';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
+import Experience from './Experience';
+import Education from './Education';
 
 class Content extends Component {
   render() {
@@ -12,26 +16,9 @@ class Content extends Component {
                     <div className="wrapper">
                         <div className="page-header page-header-small" filter-color="green">
                             <div className="page-header-image" data-parallax="true" style={{backgroundImage: 'url("images/cc-bg-1.jpg")'}} />
-                            <div className="container">
-                                <div className="content-center">
-                                    <div className="cc-profile-image"><a href="#"><img src="images/PavanKumar.jpg" alt="Image" /></a></div>
-                                    <div className="h2 title">Pavan Kumar Dasireddy</div>
-                                    <p className="category text-white">Fullstack Developer, Freelancer, Gamer, Travel lover</p><a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a className="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
-                                </div>
-                            </div>
+                            <Profile />
                             <div className="section">
-                                <div className="container">
-                                    <div className="button-container">
-                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-facebook" href="https://www.facebook.com/pavankumardasireddy" target="_blank" rel="tooltip" title="Follow me on Facebook"><i className="fa fa-facebook" /></a>
-                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-twitter" href="https://twitter.com/PavankDasireddy" target="_blank" rel="tooltip" title="Follow me on Twitter"><i className="fa fa-twitter" /></a>
-                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-google-plus" href="https://plus.google.com/u/0/114895713471086873411" target="_blank" rel="tooltip" title="Follow me on Google+"><i className="fa fa-google-plus" /></a>
-                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-instagram" href="https://www.instagram.com/pavankumardasireddy/" target="_blank" rel="tooltip" title="Follow me on Instagram"><i className="fa fa-instagram" /></a>
-
-                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-linkedin" href="https://www.linkedin.com/in/pavan-kumar-dasireddy-233b57111/" target="_blank" rel="tooltip" title="Connect me on Linkedin"><i className="fa fa-linkedin" /></a>
-                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-stack-overflow" href="https://stackoverflow.com/users/9333951/pavan-kumar-dasireddy" target="_blank" rel="tooltip" title="Check me on Stackoverflow"><i className="fa fa-stack-overflow" /></a>
-                                        <a className="btn btn-default btn-round btn-lg btn-icon cc-github" href="https://github.com/pavankumardasireddy" target="_blank" rel="tooltip" title="Follow me on github"><i className="fa fa-github" /></a>
-                                    </div>
-                                </div>
+                                <FollowSection />
                             </div>
                         </div>
                     </div>
@@ -46,130 +33,10 @@ class Content extends Component {
                     <Portfolio />
                 </div>
                 <div className="section" id="experience">
-                    <div className="container cc-experience">
-                    <div className="h4 text-center mb-4 title">Work Experience</div>
-                    <div className="card">
-                        <div className="row">
-                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body cc-experience-header">
-                            <p>June 2017 - Present</p>
-                            <div className="h5">Full-Stack Developer</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
-                            <div className="h5">Stellentsoft Pvt. Ltd.</div>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="row">
-                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body cc-experience-header">
-                            <p>March 2017 - June 2017</p>
-                            <div className="h5">Credo Web Solutions</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
-                            <div className="h5">Credo Web Solutions</div>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="row">
-                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body cc-experience-header">
-                            <p>Jan 2017 - March 2017</p>
-                            <div className="h5">Intern</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
-                            <div className="h5">Credo Web Solutions</div>
-                            <p>this is description</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+                    <Experience />
                 </div>
                 <div className="section">
-                    <div className="container cc-education">
-                    <div className="h4 text-center mb-4 title">Education</div>
-                    <div className="card">
-                        <div className="row">
-                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body cc-education-header">
-                            <p>2014 - 2017</p>
-                            <div className="h5">Master's Degree (MCA)</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
-                            <div className="h5">Master of Computer Applications</div>
-                            <p className="category">Prasad.V.Potluri Siddhartha Institute Of Technology.</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="row">
-                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body cc-education-header">
-                            <p>2011 - 2014</p>
-                            <div className="h5">Bachelor's Degree</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
-                            <div className="h5">B.Sc (M.S.Cs)</div>
-                            <p className="category">Rutvik's Degree College</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="row">
-                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body cc-education-header">
-                            <p>2009 - 2011</p>
-                            <div className="h5">Intermediate</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
-                            <div className="h5">M.P.C</div>
-                            <p className="category">Aditya Jr & Degree College</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="row">
-                        <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body cc-education-header">
-                            <p>2008 - 2009</p>
-                            <div className="h5">Secondary Education</div>
-                            </div>
-                        </div>
-                        <div className="col-md-9" data-aos="fade-left" data-aos-offset={50} data-aos-duration={500}>
-                            <div className="card-body">
-                            <div className="h5">Secondary Education</div>
-                            <p className="category">School of Secondary board</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+                    <Education />
                 </div>
                 <div className="section" id="reference">
                     <div className="container cc-reference">

@@ -19,7 +19,7 @@ class About extends Component {
                         <div className="card-body">
                             <div className="h4 mt-0 title">Basic Information</div>
                             <div className="row">
-                                <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-calendar" aria-hidden="true"></i>       Birthdate:</strong></div>
+                                <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-calendar" aria-hidden="true"></i>       Birth date:</strong></div>
                                 <div className="col-sm-8">10/08/1994</div>
                             </div>
                             <div className="row mt-3">

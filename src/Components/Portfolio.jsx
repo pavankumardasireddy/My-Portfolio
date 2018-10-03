@@ -36,7 +36,7 @@ class Portfolio extends Component {
                     <a href="#web-development">
                       <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
                         <figcaption>
-                            <div className="h4">XYZies</div>
+                            <div className="h4">Tweak WebAdmin</div>
                             <p>Web Admin</p>
                         </figcaption>
                       </figure>
@@ -48,18 +48,18 @@ class Portfolio extends Component {
                     <a href="#web-development">
                       <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
                         <figcaption>
-                          <div className="h4">XYZies</div>
-                          <p>Web Admin</p>
+                            <div className="h4">XYZies</div>
+                            <p>Web Admin</p>
                         </figcaption>
                       </figure>
                     </a>
                   </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#web-development">
-                      <figure className="cc-effect"><img src="images/project-4.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
                         <figcaption>
-                          <div className="h4">Mudrantar</div>
-                          <p>Web Application</p>
+                          <div className="h4">Fanler</div>
+                          <p>Web Admin for Sportsfans</p>
                         </figcaption>
                       </figure>
                     </a>

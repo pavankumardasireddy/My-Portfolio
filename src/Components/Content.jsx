@@ -16,8 +16,9 @@ class Content extends Component {
             <div>
                 <div className="profile-page">
                     <div className="wrapper">
-                        <div className="page-header page-header-small" filter-color="green">
-                            <div className="page-header-image" data-parallax="true" style={{backgroundImage: 'url("images/cc-bg-1.jpg")'}} />
+                        {/* Remove background:none style from below to get actual color(green) */}
+                        <div className="page-header page-header-small" filter-color="green" style={{background:"none"}}>
+                            <div className="page-header-image" data-parallax="true" style={{backgroundImage: 'url("images/bg.JPG")'}} />
                             <Profile />
                             <div className="section">
                                 <FollowSection />

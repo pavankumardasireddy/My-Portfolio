@@ -15,7 +15,7 @@ class Footer extends Component {
                 </div>
                 <div className="h4 title text-center">Pavan Kumar D</div>
                 <div className="text-center text-muted">
-                <p style={{fontSize:7}}>© Creative CV. All rights reserved.<br />Design - <a className="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+                <p style={{fontSize:5}}>© Creative CV. All rights reserved.<br />Design - <a className="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
                 </div>
             </footer>
         );

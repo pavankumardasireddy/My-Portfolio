@@ -32,7 +32,7 @@ class About extends Component {
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-location-arrow" aria-hidden="true"></i> Address:</strong></div>
-                                <div className="col-sm-8">61-3/5-6/75 (54), Flot No: 105, Bhoopesh Guptha Nagar,Krishna Lanaka, Vijayawada, AP, India.</div>
+                                <div className="col-sm-8">61-3/5-6/75 (54), Flat No: 105, Bhoopesh Guptha Nagar,Krishna Lanka, Vijayawada, AP, India.</div>
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-language" aria-hidden="true"></i> Languages:</strong></div>

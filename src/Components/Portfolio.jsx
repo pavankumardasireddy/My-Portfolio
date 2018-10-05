@@ -22,7 +22,7 @@ class Portfolio extends Component {
               <div className="row">
                 <div className="col-md-6">
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="#web-development">
+                    <a href="http://tweakvideos.net/" target="_blank" >
                       <figure className="cc-effect"><img src="images/tweak-main.png" alt="Image" />
                         <figcaption>
                             <div className="h4">Tweak Videos</div>
@@ -33,19 +33,7 @@ class Portfolio extends Component {
                     </a>
                   </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="#web-development">
-                      <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
-                        <figcaption>
-                            <div className="h4">Tweak WebAdmin</div>
-                            <p>Web Admin</p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="#web-development">
+                    <a href="https://xyzies.herokuapp.com" target="_blank">
                       <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
                         <figcaption>
                             <div className="h4">XYZies</div>
@@ -54,8 +42,20 @@ class Portfolio extends Component {
                       </figure>
                     </a>
                   </div>
+                </div>
+                <div className="col-md-6">
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="#web-development">
+                    <a href="http://app.tweakvideos.net" target="_blank">
+                      <figure className="cc-effect"><img src="images/tweak-admin.png" alt="Image" />
+                        <figcaption>
+                            <div className="h4">Tweak WebAdmin</div>
+                            <p>Web Admin</p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="http://fanler.net/" target="_blank">
                       <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
                         <figcaption>
                           <div className="h4">Fanler</div>

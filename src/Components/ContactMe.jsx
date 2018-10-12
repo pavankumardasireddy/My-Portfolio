@@ -54,7 +54,7 @@ class ContactMe extends Component {
                     <div className="col-md-6">
                       <div className="card-body">
                         <p className="mb-0"><strong>Address </strong></p>
-                        <p className="pb-2">61-3/5-6/75 (54), Flat No:105, Bhoopesh Guptha Nagar,Krishna Lanka, Vijayawada, AP, India.</p>
+                        <p className="pb-2">61-3/5-6/75 (54), Flat No:105, Bhoopesh Guptha Nagar, Krishna Lanka, Vijayawada, AP, India.</p>
                         <p className="mb-0"><strong>Phone</strong></p>
                         <p className="pb-2">+91 903-221-5508</p>
                         <p className="mb-0"><strong>Email</strong></p>

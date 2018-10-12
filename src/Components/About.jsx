@@ -9,8 +9,8 @@ class About extends Component {
                     <div className="col-lg-6 col-md-12">
                         <div className="card-body">
                             <div className="h4 mt-0 title">About</div>
-                            <p>Hello! I'm Pavan Kumar. I do a lot of different things but majority of the time I'm a FullStack Developer. I completed my education in year 2017 and soon after it started my career as a Software Developer.</p>
-                            <p>Apart from that I’m most likely listening to songs, watching some code stuff and web-series on YouTube, Reading articles on Medium, Cooking, roaming around on by bike or watching the cricket. 
+                            <p>Hello! I'm Pavan Kumar. I do a lot of different things but majority of the time I'm a FullStack Developer. I completed my education in the year 2017 and soon after it, I started my career as a Software Developer.</p>
+                            <p>Apart from that I’m most likely listening to songs, watching some code stuff and web-series on YouTube, Reading articles on Medium, Cooking, roaming around on by bike or chit chat with my friends. 
                             {/* <a href="http://pavankumardasireddy.surge.sh/" target="_blank">Learn More</a> */}
                             </p>
                         </div>
@@ -32,11 +32,11 @@ class About extends Component {
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-location-arrow" aria-hidden="true"></i> Address:</strong></div>
-                                <div className="col-sm-8">61-3/5-6/75 (54), Flat No: 105, Bhoopesh Guptha Nagar,Krishna Lanka, Vijayawada, AP, India.</div>
+                                <div className="col-sm-8">61-3/5-6/75 (54), Flat No: 105, Bhoopesh Guptha Nagar, Krishna Lanka, Vijayawada, AP, India.</div>
                             </div>
                             <div className="row mt-3">
                                 <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-language" aria-hidden="true"></i> Languages:</strong></div>
-                                <div className="col-sm-8">English, Hindi, Telugu</div>
+                                <div className="col-sm-8">Telugu, English, Hindi.</div>
                             </div>
                         </div>
                     </div>

@@ -17,7 +17,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">Master of Computer Applications</div>
                             <p className="category">Prasad.V.Potluri Siddhartha Institute Of Technology.</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            <p>Prasad.V.Potluri Siddhartha Institute Of Technology.(Description goes here)</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">B.Sc (M.S.Cs)</div>
                             <p className="category">Rutvik's Degree College</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            <p>Rutvik's Degree College(Description goes here)</p>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">M.P.C</div>
                             <p className="category">Aditya Jr & Degree College</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            <p>Aditya Jr & Degree College.(Description goes here)</p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">Secondary Education</div>
                             <p className="category">School of Secondary board</p>
-                            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                            <p>Krishna Chaitanya Public School.(Description goes here.)</p>
                         </div>
                     </div>
                 </div>

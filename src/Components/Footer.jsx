@@ -13,7 +13,7 @@ class Footer extends Component {
                     <a className="cc-stack-overflow btn btn-link" href="https://stackoverflow.com/users/9333951/pavan-kumar-dasireddy" target="_blank"><i className="fa fa-stack-overflow fa-2x " aria-hidden="true" /></a>
                     <a className="cc-github btn btn-link" href="https://github.com/pavankumardasireddy" target="_blank"><i className="fa fa-github fa-2x " aria-hidden="true" /></a>
                 </div>
-                <div className="h4 title text-center">Pavan Kumar D</div>
+                <div className="h4 title text-center">Pavan Kumar.D</div>
                 <div className="text-center text-muted">
                 <p style={{fontSize:5}}>© Creative CV. All rights reserved.<br />Design - <a className="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
                 </div>

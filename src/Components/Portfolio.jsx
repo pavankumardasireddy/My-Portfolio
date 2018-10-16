@@ -33,18 +33,6 @@ class Portfolio extends Component {
                     </a>
                   </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="https://xyzies.herokuapp.com" target="_blank">
-                      <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
-                        <figcaption>
-                            <div className="h4">XYZies</div>
-                            <p>Web Admin</p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="http://app.tweakvideos.net" target="_blank">
                       <figure className="cc-effect"><img src="images/tweak-admin.png" alt="Image" />
                         <figcaption>
@@ -54,9 +42,21 @@ class Portfolio extends Component {
                       </figure>
                     </a>
                   </div>
+                </div>
+                <div className="col-md-6">
+                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <a href="https://xyzies.herokuapp.com" target="_blank">
+                      <figure className="cc-effect"><img src="images/xyzies.png" alt="Image" />
+                        <figcaption>
+                            <div className="h4">XYZies</div>
+                            <p>Web Admin</p>
+                        </figcaption>
+                      </figure>
+                    </a>
+                  </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="http://fanler.net/" target="_blank">
-                      <figure className="cc-effect"><img src="images/xyzies-main.png" alt="Image" />
+                      <figure className="cc-effect"><img src="images/falner.png" alt="Image" />
                         <figcaption>
                           <div className="h4">Fanler</div>
                           <p>Web Admin for Sportsfans</p>

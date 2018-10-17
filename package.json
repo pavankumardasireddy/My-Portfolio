@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
+    "nodemailer": "^4.6.8",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^1.18.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "1.1.5",
@@ -10,10 +17,11 @@
     "typed.js": "^2.0.9"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"nodemon server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build && mv build/index.html build/200.html && surge build"
-  }
+  },
+  "proxy": "http://localhost:5000/"
 }

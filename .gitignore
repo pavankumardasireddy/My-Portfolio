@@ -1,4 +1,4 @@
 /node_modules
 sendgrid.env
 .vscode
-.env
+config_file.js

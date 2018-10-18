@@ -1,10 +1,12 @@
 var mongoose = require('mongoose');  
 var EmailSchema = new mongoose.Schema({
-  name: String,
-  subject: String,
-  from: String,
-  message: String
+  name: { type: String },
+  subject: { type: String },
+  from: { type: String },
+  message: { type: String }
 });
-mongoose.model('Email', EmailSchema);
+EmailSchema.set('toJSON', { getters: true });
 
-module.exports = mongoose.model('Email');
+let Email = mongoose.model('Email', EmailSchema);
+
+module.exports = Email;

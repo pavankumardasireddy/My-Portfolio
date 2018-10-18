@@ -7,7 +7,6 @@ var sgTransport = require('nodemailer-sendgrid-transport');
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
 var Email = require('./Email');
-var config = require('../../config')
 
 // sending email
 router.post('/saveUser', function (req, res) {
@@ -27,8 +26,8 @@ router.post('/saveUser', function (req, res) {
 router.post('/sendEmail', function (req, res) {
     var options = {
       auth: {
-        api_user: config.SENDGRID_USERNAME,
-        api_key: config.SENDGRID_PASSWORD
+        api_user: process.env.SENDGRID_USERNAME,
+        api_key: process.env.SENDGRID_PASSWORD
       }
     }
     var smtpTransport = nodemailer.createTransport(sgTransport(options));

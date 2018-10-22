@@ -71,7 +71,7 @@ router.post('/sendEmail', function (req, res) {
       smtpTransport.sendMail(myOptions, function (err, email) {
         err ? console.log('error: ',err) : console.log('success response: ', email);
       });
-      res.send({ "message": "Sent Successfully!" });
+      res.send({ "message": "Mail Sent Successfully!" });
   });
 
 module.exports = router;

@@ -1,6 +1,71 @@
 import React, { Component } from 'react';
+import swal from 'sweetalert';
 
 class ContactMe extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      contactDetails: {
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+      }
+    }
+  }
+   // Managing form values with state
+   handleChange = name => event => {
+     console.log('onchange called: ', name)
+    var value = event.target.value ? event.target.value : ''
+    this.setState((state) => { state.contactDetails[name]= value },()=>{
+      console.log('state values: ', this.state.contactDetails)
+    });
+  };
+
+  sendMail(e, data) {
+    e.preventDefault();
+
+    // Checking each value, if empty then showing the alert message.
+    data.contactDetails.name=="" || data.contactDetails.name.trim() =="" ? swal("name is required") : ''
+    data.contactDetails.email=="" || data.contactDetails.email.trim() =="" ? swal("Email Address is required") : ''
+    data.contactDetails.subject=="" || data.contactDetails.subject.trim() =="" ? swal("subject is required") : ''
+     ||data.contactDetails.message.trim() =="" ? swal("Message is required") : ''
+
+    //Checking for the form values are filled or not if filled then passing data to the API
+    if(this.state.contactDetails.name!=='' && this.state.contactDetails.name.trim() !== "" && this.state.contactDetails.email !== "" && this.state.contactDetails.email.trim() !== "" &&this.state.contactDetails.subject !== "" && this.state.contactDetails.subject.trim() !== "" && this.state.contactDetails.message !== "" && this.state.contactDetails.message.trim() !== ""){
+      var emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      var req={
+        name  : this.state.contactDetails.name,
+        from : this.state.contactDetails.email,
+        subject : this.state.contactDetails.subject,message:this.state.contactDetails.message,
+      }
+      if(!emailRegex.test(req.from)) {
+        swal("Please enter a valid email address")
+      } else {
+        fetch('http://localhost:5000/sendEmail', {
+          method: 'POST',
+          body: JSON.stringify(req),
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        })
+        .then((response)=>response.json())
+          .then((data)=>{
+            swal(`${data.message}`, "Please check your inbox once.", "success")
+            .then((value) => {
+              window.location.reload()
+            });
+          })
+          .catch((error)=>{
+            console.log("Error, with message::",error)
+          }); 
+      }
+        
+      
+           
+    }
+  }
+
   render() {
     return (
       <div className="cc-contact-information" style={{ backgroundImage: 'url("images/staticmap.png")' }}>
@@ -18,34 +83,34 @@ class ContactMe extends Component {
                           <div className="row mb-3">
                             <div className="col">
                               <div className="input-group"><span className="input-group-addon"><i className="fa fa-user-circle" /></span>
-                                <input className="form-control" type="text" name="name" placeholder="Name" required="required" />
+                                <input className="form-control" type="text" name="name" placeholder="Name" required="required" onChange={this.handleChange('name')}/>
                               </div>
                             </div>
                           </div>
                           <div className="row mb-3">
                             <div className="col">
                               <div className="input-group"><span className="input-group-addon"><i className="fa fa-file-text" /></span>
-                                <input className="form-control" type="text" name="Subject" placeholder="Subject" required="required" />
+                                <input className="form-control" type="text" name="subject" placeholder="Subject" required="required" onChange={this.handleChange('subject')}/>
                               </div>
                             </div>
                           </div>
                           <div className="row mb-3">
                             <div className="col">
                               <div className="input-group"><span className="input-group-addon"><i className="fa fa-envelope" /></span>
-                                <input className="form-control" type="email" name="_replyto" placeholder="E-mail" required="required" />
+                                <input className="form-control" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="E-mail" required="required" onChange={this.handleChange('email')}/>
                               </div>
                             </div>
                           </div>
                           <div className="row mb-3">
                             <div className="col">
                               <div className="form-group">
-                                <textarea className="form-control" name="message" placeholder="Your Message" required="required" defaultValue={""} />
+                                <textarea className="form-control" name="message" placeholder="Your Message" required="required" defaultValue={""} onChange={this.handleChange('message')}/>
                               </div>
                             </div>
                           </div>
                           <div className="row">
                             <div className="col">
-                              <button className="btn btn-primary" type="submit">Send</button>
+                              <button className="btn btn-primary" type="submit" onClick={(e)=>{this.sendMail(e, this.state)}}>Send</button>
                             </div>
                           </div>
                         </form>

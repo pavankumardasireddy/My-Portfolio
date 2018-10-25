@@ -41,9 +41,9 @@ class Content extends Component {
                 <div className="section">
                     <Education />
                 </div>
-                <div className="section" id="reference">
+                {/* <div className="section" id="reference">
                     <Reference />
-                </div>
+                </div> */}
                 <div className="section" id="contact">
                     <ContactMe />
                 </div>

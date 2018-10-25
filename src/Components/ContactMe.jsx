@@ -15,7 +15,6 @@ class ContactMe extends Component {
   }
    // Managing form values with state
    handleChange = name => event => {
-     console.log('onchange called: ', name)
     var value = event.target.value ? event.target.value : ''
     this.setState((state) => { state.contactDetails[name]= value },()=>{
       console.log('state values: ', this.state.contactDetails)
@@ -24,7 +23,6 @@ class ContactMe extends Component {
 
   sendMail(e, data) {
     e.preventDefault();
-
     // Checking each value, if empty then showing the alert message.
     data.contactDetails.name=="" || data.contactDetails.name.trim() =="" ? swal("name is required") : ''
     data.contactDetails.email=="" || data.contactDetails.email.trim() =="" ? swal("Email Address is required") : ''

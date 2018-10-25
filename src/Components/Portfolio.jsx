@@ -36,7 +36,7 @@ class Portfolio extends Component {
                     <a href="http://app.tweakvideos.net" target="_blank">
                       <figure className="cc-effect"><img src="images/tweak-admin.png" alt="Image" />
                         <figcaption>
-                            <div className="h4">Tweak WebAdmin</div>
+                            <div className="h4">Tweak Web Admin</div>
                             <p>Web Admin</p>
                         </figcaption>
                       </figure>

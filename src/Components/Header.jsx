@@ -6,7 +6,7 @@ class Header extends Component {
         <div className="profile-page sidebar-collapse">
             <nav className="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll={400}>
                 <div className="container">
-                    <div className="navbar-translate"><a className="navbar-brand" href="#" rel="tooltip">Pavan Kumar Dasireddy</a>
+                    <div className="navbar-translate"><a className="navbar-brand colorsMe" href="#" rel="tooltip">Pavan Kumar Dasireddy</a>
                         <button className="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-bar bar1" /><span className="navbar-toggler-bar bar2" />
                             <span className="navbar-toggler-bar bar3" />

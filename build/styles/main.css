@@ -7304,3 +7304,19 @@ a.credit {
   background: #8fd487c9;
   box-shadow: 0 0 6px rgba(0,0,0,.12);
 }
+
+.colorsMe {
+  display: inline-block;
+    /* color: green; */
+    background: #b11919 -webkit-gradient(linear, 100% 0, 0 0, from(#dfdfdf), color-stop(0.5, #ffffff), to(black));
+    /* background: #292b2c -webkit-gradient(linear, 100% 0, 0 0, from(#292b2c), color-stop(0.5, #ffffff), to(#292b2c)); */
+    background: #e2edf3 -webkit-gradient(linear, 100% 0, 0 0, from(#bfeac3), color-stop(0.5, #ede36f), to(#ff8787));
+    background-position: 1rem top;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation-name: initial;
+    -webkit-animation-duration: 2.2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-background-size: 12rem 100%;
+}

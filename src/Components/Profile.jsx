@@ -26,7 +26,7 @@ class Profile extends Component {
                 {/* Static */}
                 {/* <p className="category text-white">Fullstack Developer, Freelancer, Gamer, Travel lover</p> */}
                 <a className="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a>
-                <a className="btn btn-primary" href="docs/MyResume.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" download="PavanKumarD.pdf">Download CV</a>
+                <a className="btn btn-primary" href="docs/MyResume1.5.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" download="PavanKumarD.pdf">Download CV</a>
             </div>
         </div>
     );

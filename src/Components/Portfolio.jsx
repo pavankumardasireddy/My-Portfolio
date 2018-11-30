@@ -1,4 +1,23 @@
 import React, { Component } from 'react';
+import data from '../static';
+
+class Projects extends Component {
+  render() {
+    return (
+      <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <a href={this.props.project.baseUrl} target="_blank" >
+          <figure className="cc-effect"><img src={this.props.project.image} alt="Image" />
+            <figcaption>
+                <div className="h4">{this.props.project.projectName}</div>
+                <p>{this.props.project.projectType}</p>
+                {/* <p className="text-lowercase"><a style={{color:"white"}} href="http://tweakvideos.net/" target="_blank" >http://tweakvideos.net/</a></p> */}
+            </figcaption>
+          </figure>
+        </a>
+      </div>
+    )
+  }
+}
 
 class Portfolio extends Component {
   render() {
@@ -21,49 +40,22 @@ class Portfolio extends Component {
             <div className="ml-auto mr-auto">
               <div className="row">
                 <div className="col-md-6">
-                  <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://tweakvideos.net/" target="_blank" >
-                      <figure className="cc-effect"><img src="images/tweak-main.png" alt="Image" />
-                        <figcaption>
-                            <div className="h4">Tweak Videos</div>
-                            <p>Web Application</p>
-                            {/* <p className="text-lowercase"><a style={{color:"white"}} href="http://tweakvideos.net/" target="_blank" >http://tweakvideos.net/</a></p> */}
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://app.tweakvideos.net" target="_blank">
-                      <figure className="cc-effect"><img src="images/tweak-admin.png" alt="Image" />
-                        <figcaption>
-                            <div className="h4">Tweak Web Admin</div>
-                            <p>Web Admin</p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
+                  {
+                    data.col1.map((project, key) => {
+                      return <section>
+                        <Projects project={project}/>
+                      </section>
+                    })
+                  }
                 </div>
                 <div className="col-md-6">
-                <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="https://xyzies.herokuapp.com" target="_blank">
-                      <figure className="cc-effect"><img src="images/xyzies.png" alt="Image" />
-                        <figcaption>
-                            <div className="h4">XYZies</div>
-                            <p>Web Admin</p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
-                  <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                    <a href="http://fanler.net/" target="_blank">
-                      <figure className="cc-effect"><img src="images/falner.png" alt="Image" />
-                        <figcaption>
-                          <div className="h4">Fanler</div>
-                          <p>Web Admin for Sportsfans</p>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
+                  {
+                    data.col2.map((project, key) => {
+                      return <section>
+                        <Projects project={project}/>
+                      </section>
+                    })
+                  }
                 </div>
               </div>
             </div>

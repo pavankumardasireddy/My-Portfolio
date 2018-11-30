@@ -17,7 +17,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">Master of Computer Applications</div>
                             <p className="category">Prasad.V.Potluri Siddhartha Institute Of Technology.</p>
-                            <p>Prasad.V.Potluri Siddhartha Institute Of Technology.(Description goes here)</p>
+                            <p>Prasad.V.Potluri Siddhartha Institute Of Technology.</p>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">B.Sc (M.S.Cs)</div>
                             <p className="category">Rutvik's Degree College</p>
-                            <p>Rutvik's Degree College(Description goes here)</p>
+                            <p>Rutvik's Degree College</p>
                         </div>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">M.P.C</div>
                             <p className="category">Aditya Jr & Degree College</p>
-                            <p>Aditya Jr & Degree College.(Description goes here)</p>
+                            <p>Aditya Jr & Degree College.</p>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ class Education extends Component {
                         <div className="card-body">
                             <div className="h5">Secondary Education</div>
                             <p className="category">School of Secondary board</p>
-                            <p>Krishna Chaitanya Public School.(Description goes here.)</p>
+                            <p>Krishna Chaitanya Public School.</p>
                         </div>
                     </div>
                 </div>

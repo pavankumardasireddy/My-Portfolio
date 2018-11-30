@@ -21,48 +21,48 @@ class ContactMe extends Component {
     });
   };
 
-  sendMail(e, data) {
-    e.preventDefault();
-    // Checking each value, if empty then showing the alert message.
-    data.contactDetails.name=="" || data.contactDetails.name.trim() =="" ? swal("name is required") : ''
-    data.contactDetails.email=="" || data.contactDetails.email.trim() =="" ? swal("Email Address is required") : ''
-    data.contactDetails.subject=="" || data.contactDetails.subject.trim() =="" ? swal("subject is required") : ''
-     ||data.contactDetails.message.trim() =="" ? swal("Message is required") : ''
+  // sendMail(e, data) {
+  //   e.preventDefault();
+  //   // Checking each value, if empty then showing the alert message.
+  //   data.contactDetails.name=="" || data.contactDetails.name.trim() =="" ? swal("name is required") : ''
+  //   data.contactDetails.email=="" || data.contactDetails.email.trim() =="" ? swal("Email Address is required") : ''
+  //   data.contactDetails.subject=="" || data.contactDetails.subject.trim() =="" ? swal("subject is required") : ''
+  //    ||data.contactDetails.message.trim() =="" ? swal("Message is required") : ''
 
-    //Checking for the form values are filled or not if filled then passing data to the API
-    if(this.state.contactDetails.name!=='' && this.state.contactDetails.name.trim() !== "" && this.state.contactDetails.email !== "" && this.state.contactDetails.email.trim() !== "" &&this.state.contactDetails.subject !== "" && this.state.contactDetails.subject.trim() !== "" && this.state.contactDetails.message !== "" && this.state.contactDetails.message.trim() !== ""){
-      var emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-      var req={
-        name  : this.state.contactDetails.name,
-        from : this.state.contactDetails.email,
-        subject : this.state.contactDetails.subject,message:this.state.contactDetails.message,
-      }
-      if(!emailRegex.test(req.from)) {
-        swal("Please enter a valid email address")
-      } else {
-        fetch('http://localhost:5000/sendEmail', {
-          method: 'POST',
-          body: JSON.stringify(req),
-          headers: {
-            'Content-Type': 'application/json'
-          }
-        })
-        .then((response)=>response.json())
-          .then((data)=>{
-            swal(`${data.message}`, "Please check your inbox once.", "success")
-            .then((value) => {
-              window.location.reload()
-            });
-          })
-          .catch((error)=>{
-            console.log("Error, with message::",error)
-          }); 
-      }
+  //   //Checking for the form values are filled or not if filled then passing data to the API
+  //   if(this.state.contactDetails.name!=='' && this.state.contactDetails.name.trim() !== "" && this.state.contactDetails.email !== "" && this.state.contactDetails.email.trim() !== "" &&this.state.contactDetails.subject !== "" && this.state.contactDetails.subject.trim() !== "" && this.state.contactDetails.message !== "" && this.state.contactDetails.message.trim() !== ""){
+  //     var emailRegex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  //     var req={
+  //       name  : this.state.contactDetails.name,
+  //       from : this.state.contactDetails.email,
+  //       subject : this.state.contactDetails.subject,message:this.state.contactDetails.message,
+  //     }
+  //     if(!emailRegex.test(req.from)) {
+  //       swal("Please enter a valid email address")
+  //     } else {
+  //       fetch('http://localhost:5000/sendEmail', {
+  //         method: 'POST',
+  //         body: JSON.stringify(req),
+  //         headers: {
+  //           'Content-Type': 'application/json'
+  //         }
+  //       })
+  //       .then((response)=>response.json())
+  //         .then((data)=>{
+  //           swal(`${data.message}`, "Please check your inbox once.", "success")
+  //           .then((value) => {
+  //             window.location.reload()
+  //           });
+  //         })
+  //         .catch((error)=>{
+  //           console.log("Error, with message::",error)
+  //         }); 
+  //     }
         
       
            
-    }
-  }
+  //   }
+  // }
 
   render() {
     return (
@@ -108,7 +108,8 @@ class ContactMe extends Component {
                           </div>
                           <div className="row">
                             <div className="col">
-                              <button className="btn btn-primary" type="submit" onClick={(e)=>{this.sendMail(e, this.state)}}>Send</button>
+                              <button className="btn btn-primary" type="submit">Send</button>
+                              {/* <button className="btn btn-primary" type="submit" onClick={(e)=>{this.sendMail(e, this.state)}}>Send</button> */}
                             </div>
                           </div>
                         </form>

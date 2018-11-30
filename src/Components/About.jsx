@@ -19,23 +19,23 @@ class About extends Component {
                         <div className="card-body">
                             <div className="h4 mt-0 title">Basic Information</div>
                             <div className="row">
-                                <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-calendar" aria-hidden="true"></i>       Birth date:</strong></div>
+                                <div className="col-sm-4"><strong className="text-uppercase"><i className="fa fa-calendar" aria-hidden="true"></i>       Birth date:</strong></div>
                                 <div className="col-sm-8">06-08-1994</div>
                             </div>
                             <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-envelope-o" aria-hidden="true"></i> Email:</strong></div>
+                                <div className="col-sm-4"><strong className="text-uppercase"><i className="fa fa-envelope-o" aria-hidden="true"></i> Email:</strong></div>
                                 <div className="col-sm-8">pavankumar.dasireddy@gmail.com</div>
                             </div>
                             <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-phone " aria-hidden="true"></i> Phone:</strong></div>
+                                <div className="col-sm-4"><strong className="text-uppercase"><i className="fa fa-phone " aria-hidden="true"></i> Phone:</strong></div>
                                 <div className="col-sm-8">+91 903-221-5508</div>
                             </div>
                             <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-location-arrow" aria-hidden="true"></i> Address:</strong></div>
+                                <div className="col-sm-4"><strong className="text-uppercase"><i className="fa fa-location-arrow" aria-hidden="true"></i> Address:</strong></div>
                                 <div className="col-sm-8">61-3/5-6/75 (54), Flat No: 105, Bhoopesh Guptha Nagar, Krishna Lanka, Vijayawada, AP, India.</div>
                             </div>
                             <div className="row mt-3">
-                                <div className="col-sm-4"><strong className="text-uppercase"><i class="fa fa-language" aria-hidden="true"></i> Languages:</strong></div>
+                                <div className="col-sm-4"><strong className="text-uppercase"><i className="fa fa-language" aria-hidden="true"></i> Languages:</strong></div>
                                 <div className="col-sm-8">Telugu, English, Hindi.</div>
                             </div>
                         </div>

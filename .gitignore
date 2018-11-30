@@ -2,3 +2,5 @@
 sendgrid.env
 .vscode
 config_file.js
+/build
+package-lock.json

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from '../static';
+import data from '../staticData';
 
 class Projects extends Component {
   render() {

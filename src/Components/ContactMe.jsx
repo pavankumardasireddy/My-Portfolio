@@ -21,6 +21,12 @@ class ContactMe extends Component {
     });
   };
 
+  // Static response
+  contact(e) {
+    e.preventDefault();
+    alert(`Thanks!! ${this.state.contactDetails.name} I'll get back to you soon.`)
+  }
+
   // sendMail(e, data) {
   //   e.preventDefault();
   //   // Checking each value, if empty then showing the alert message.
@@ -108,7 +114,7 @@ class ContactMe extends Component {
                           </div>
                           <div className="row">
                             <div className="col">
-                              <button className="btn btn-primary" type="submit">Send</button>
+                              <button className="btn btn-primary" type="submit" onClick={(e)=> {this.contact(e)}}>Send</button>
                               {/* <button className="btn btn-primary" type="submit" onClick={(e)=>{this.sendMail(e, this.state)}}>Send</button> */}
                             </div>
                           </div>

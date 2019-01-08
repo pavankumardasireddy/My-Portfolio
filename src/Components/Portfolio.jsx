@@ -6,7 +6,7 @@ class Projects extends Component {
     return (
       <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <a href={this.props.project.baseUrl} target="_blank" >
-          <figure className="cc-effect"><img src={this.props.project.image} alt="Image" />
+          <figure className="cc-effect"><img src={this.props.project.image} alt="" />
             <figcaption>
                 <div className="h4">{this.props.project.projectName}</div>
                 <p>{this.props.project.projectType}</p>
@@ -66,7 +66,7 @@ class Portfolio extends Component {
                 <div className="col-md-6">
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#graphic-design">
-                      <figure className="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/graphic-design-1.jpg" alt="" />
                         <figcaption>
                           <div className="h4">Triangle Pattern</div>
                           <p>Graphic Design</p>
@@ -76,7 +76,7 @@ class Portfolio extends Component {
                   </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#graphic-design">
-                      <figure className="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/graphic-design-2.jpg" alt="" />
                         <figcaption>
                             <div className="h4">Abstract Umbrella</div>
                             <p>Graphic Design</p>
@@ -88,7 +88,7 @@ class Portfolio extends Component {
                 <div className="col-md-6">
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#graphic-design">
-                      <figure className="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/graphic-design-3.jpg" alt="" />
                         <figcaption>
                             <div className="h4">Cube Surface Texture</div>
                             <p>Graphic Design</p>
@@ -98,7 +98,7 @@ class Portfolio extends Component {
                   </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#graphic-design">
-                      <figure className="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/graphic-design-4.jpg" alt="" />
                         <figcaption>
                             <div className="h4">Abstract Line</div>
                             <p>Graphic Design</p>
@@ -116,7 +116,7 @@ class Portfolio extends Component {
                 <div className="col-md-6">
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#Photography">
-                      <figure className="cc-effect"><img src="images/photography-1.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/photography-1.jpg" alt="" />
                         <figcaption>
                           <div className="h4">Photoshoot</div>
                           <p>Photography</p>
@@ -126,7 +126,7 @@ class Portfolio extends Component {
                   </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#Photography">
-                      <figure className="cc-effect"><img src="images/photography-3.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/photography-3.jpg" alt="" />
                         <figcaption>
                           <div className="h4">Wedding Photoshoot</div>
                           <p>Photography</p>
@@ -138,7 +138,7 @@ class Portfolio extends Component {
                 <div className="col-md-6">
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#Photography">
-                      <figure className="cc-effect"><img src="images/photography-2.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/photography-2.jpg" alt="" />
                         <figcaption>
                           <div className="h4">Beach Photoshoot</div>
                           <p>Photography</p>
@@ -148,7 +148,7 @@ class Portfolio extends Component {
                   </div>
                   <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                     <a href="#Photography">
-                      <figure className="cc-effect"><img src="images/photography-4.jpg" alt="Image" />
+                      <figure className="cc-effect"><img src="images/photography-4.jpg" alt="" />
                         <figcaption>
                           <div className="h4">Nature Photoshoot</div>
                           <p>Photography</p>

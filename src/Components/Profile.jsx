@@ -3,7 +3,7 @@ import Typed from 'typed.js';
 
 class Profile extends Component {
   componentDidMount() {
-    var typed3 = new Typed('#typed', {
+    new Typed('#typed', {
       strings: ['Fullstack Developer', 'Freelancer', 'Gamer','Travel lover'],
       backDelay: 500,
       startDelay: 400,
@@ -18,7 +18,7 @@ class Profile extends Component {
         <div className="container">
             <div className="content-center">
                 {/* Profile image code */}
-                {/* <div className="cc-profile-image"><a href="#"><img src="images/PavanKumar.jpg" alt="Image" /></a></div> */}
+                {/* <div className="cc-profile-image"><a href="#"><img src="images/PavanKumar.jpg" alt="" /></a></div> */}
                 <div style={{fontSize: "2.5em"}} className="title">Pavan Kumar Dasireddy</div>
                 <div>
                   <span style={{fontSize:20}} className="category text-white" id="typed"></span>

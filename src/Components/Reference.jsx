@@ -15,7 +15,7 @@ class Reference extends Component {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="row">
-                                <div className="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image" />
+                                <div className="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="" />
                                     <div className="h5 pt-2">Aiyana</div>
                                     <p className="category">CEO / WEBM</p>
                                 </div>
@@ -26,7 +26,7 @@ class Reference extends Component {
                         </div>
                         <div className="carousel-item">
                             <div className="row">
-                                <div className="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image" />
+                                <div className="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="" />
                                     <div className="h5 pt-2">Braiden</div>
                                     <p className="category">CEO / Creativem</p>
                                 </div>
@@ -37,7 +37,7 @@ class Reference extends Component {
                         </div>
                         <div className="carousel-item">
                             <div className="row">
-                                <div className="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image" />
+                                <div className="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="" />
                                     <div className="h5 pt-2">Alexander</div>
                                     <p className="category">CEO / Webnote</p>
                                 </div>

@@ -10,7 +10,7 @@ class About extends Component {
                         <div className="card-body">
                             <div className="h4 mt-0 title">About</div>
                             <p>Hello! I'm Pavan Kumar. I do a lot of different things but majority of the time I'm a FullStack Developer. I completed my education in the year 2017 and soon after it, I started my career as a Software Developer.</p>
-                            <p>Apart from that I’m most likely listening to songs, watching some code stuff and web-series on YouTube, Reading articles on Medium, Cooking, roaming around on by bike or chit chat with my friends. 
+                            <p>Apart from that I’m most likely listening to songs, watching some code stuff and web-series on YouTube, Reading articles on Medium/DEV.to, Cooking, roaming around on by bike or chit chat with my friends. 
                             {/* <a href="http://pavankumardasireddy.surge.sh/" target="_blank">Learn More</a> */}
                             </p>
                         </div>

@@ -30,10 +30,18 @@ class ContactMe extends Component {
   sendMail(e, data) {
     e.preventDefault();
     // Checking each value, if empty then showing the alert message.
-    data.contactDetails.name=="" || data.contactDetails.name.trim() =="" ? swal("name is required") : ''
-    data.contactDetails.email=="" || data.contactDetails.email.trim() =="" ? swal("Email Address is required") : ''
-    data.contactDetails.subject=="" || data.contactDetails.subject.trim() =="" ? swal("subject is required") : ''
-     ||data.contactDetails.message.trim() =="" ? swal("Message is required") : ''
+    if(data.contactDetails.name=="" || data.contactDetails.name.trim() =="") {
+     swal("name is required");
+    }
+    if(data.contactDetails.email=="" || data.contactDetails.email.trim() =="") {
+     swal("Email Address is required");
+    }
+    if(data.contactDetails.subject=="" || data.contactDetails.subject.trim() =="") {
+      swal("subject is required");
+    }
+    if(data.contactDetails.message.trim() =="") {
+      swal("Message is required");
+    }
 
     //Checking for the form values are filled or not if filled then passing data to the API
     if(this.state.contactDetails.name!=='' && this.state.contactDetails.name.trim() !== "" && this.state.contactDetails.email !== "" && this.state.contactDetails.email.trim() !== "" &&this.state.contactDetails.subject !== "" && this.state.contactDetails.subject.trim() !== "" && this.state.contactDetails.message !== "" && this.state.contactDetails.message.trim() !== ""){

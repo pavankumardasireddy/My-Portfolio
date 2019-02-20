@@ -54,7 +54,7 @@ class ContactMe extends Component {
       if(!emailRegex.test(req.from)) {
         swal("Please enter a valid email address")
       } else {
-        fetch('http://localhost:5000/sendEmail', {
+        fetch('https://pavankumardasireddy.netlify.com/sendEmail', {
           method: 'POST',
           body: JSON.stringify(req),
           headers: {

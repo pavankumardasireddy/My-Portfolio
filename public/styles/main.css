@@ -7243,8 +7243,7 @@ Created using IcoMoon - icomoon.io
   }
 }
 
-/* Footer */
-/* Social button style */
+/* Footer icon styles*/
 .cc-facebook:hover i {
   color: #3b5998;
 }
@@ -7269,6 +7268,34 @@ Created using IcoMoon - icomoon.io
 }
 .cc-github:hover i {
   color: #222222;
+}
+
+/* Follow section icons styles*/
+.cc-facebook-follow:hover {
+  background-color: #3b5998;
+}
+
+.cc-twitter-follow:hover {
+  background-color: #1da1f2;
+}
+
+.cc-google-plus-follow:hover {
+  background-color: #dd4b39;
+}
+
+.cc-instagram-follow:hover {
+  background-color: #405de6;
+}
+
+.cc-stack-overflow-follow:hover {
+  color: #f48024;
+  background-color: white;
+}
+.cc-linkedin-follow:hover {
+  background-color: #0077b5;
+}
+.cc-github-follow:hover {
+  background-color: #222222;
 }
 
 /* Credit Style */

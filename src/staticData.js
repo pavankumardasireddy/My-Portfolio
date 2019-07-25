@@ -31,6 +31,12 @@ const data = {
       baseUrl : "http://fanler.net/",
       projectType : "Web Admin for Sportsfans",
       image : "images/falner.png"
+    },
+    {
+      projectName : "Fanler",
+      baseUrl : "http://fanler.net/",
+      projectType : "Web Admin for Sportsfans",
+      image : "images/falner.png"
     }
   ],
   experience: [

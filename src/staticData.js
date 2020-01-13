@@ -33,27 +33,27 @@ const data = {
       image : "images/falner.png"
     },
     {
-      projectName : "Fanler",
-      baseUrl : "http://fanler.net/",
-      projectType : "Web Admin for Sportsfans",
-      image : "images/falner.png"
+      projectName : "Cal-med- Patient Portal",
+      baseUrl : "",
+      projectType : "Web Application",
+      image : "images/calmed-pat.png"
     }
   ],
   experience: [
     {
-      fromTo: "June 2017 - Present",
+      fromTo: "Dec 2019 - Present",
+      designation: "Full-Stack Developer",
+      companyName: "Affluent Global Services Pvt Ltd.",
+      description: "Working as a Fullstack Developer"
+    },
+    {
+      fromTo: "Jun 2017 - Dec 2019",
       designation: "Full-Stack Developer",
       companyName: "Stellentsoft Pvt. Ltd.",
-      description: "I'm working here from June 2017 to till date as a Fullstack Developer."
+      description: "Worked from Jun-2017 to Dec-2019 as a Fullstack Developer."
     },
     {
-      fromTo: "March 2017 - June 2017",
-      designation: "MEAN-Stack Developer",
-      companyName: "Credo Web Solutions",
-      description: "I worked here as a MEAN Stack Developer for 3 months."
-    },
-    {
-      fromTo: "Jan 2017 - March 2017",
+      fromTo: "Jan 2017 - Mar 2017",
       designation: "Intern",
       companyName: "Credo Web Solutions",
       description: "Did my 3 months Internship on MEANSTACK"
@@ -88,7 +88,8 @@ const data = {
       college: "School of Secondary board",
       description: "Krishna Chaitanya Public School."
     },
-  ]
+  ],
+  resumeLink: 'https://docs.google.com/document/d/1HFtKxnYZk2xhUKv9z0EBqLX3KIolIZMl1VqBuLXd7kc/edit?usp=sharing'
 }
 
 export default data;

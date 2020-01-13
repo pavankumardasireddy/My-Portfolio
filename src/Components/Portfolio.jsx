@@ -1,22 +1,29 @@
 import React, { Component } from 'react';
 import data from '../staticData';
 
-class Projects extends Component {
-  render() {
-    return (
-      <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <a href={this.props.project.baseUrl} target="_blank" >
-          <figure className="cc-effect"><img src={this.props.project.image} alt="" />
-            <figcaption>
-                <div className="h4">{this.props.project.projectName}</div>
-                <p>{this.props.project.projectType}</p>
+const Projects = ({ project }) => {
+  return (
+    <div>
+      {
+        project.image ? 
+        <div className="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <a href={project.baseUrl} target="_blank" >
+            <figure className="cc-effect"><img src={project.image} alt="" />
+              <figcaption>
+                <div className="h4">{project.projectName}</div>
+                <p>{project.projectType}</p>
                 {/* <p className="text-lowercase"><a style={{color:"white"}} href="http://tweakvideos.net/" target="_blank" >http://tweakvideos.net/</a></p> */}
-            </figcaption>
-          </figure>
-        </a>
-      </div>
-    )
-  }
+              </figcaption>
+            </figure>
+          </a>
+        </div> : 
+        <figcaption>
+          <div className="h4">{project.projectName}</div>
+          <p>{project.projectType}</p>
+      </figcaption>
+      }
+    </div>
+  )
 }
 
 class Portfolio extends Component {

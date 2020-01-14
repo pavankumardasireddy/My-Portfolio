@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Header extends Component {
-  render() {
+const Header = () => {
     return (
         <div className="profile-page sidebar-collapse">
             <nav className="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll={400}>
@@ -25,7 +24,6 @@ class Header extends Component {
             </nav>
       </div>
     );
-  }
 }
 
 export default Header;

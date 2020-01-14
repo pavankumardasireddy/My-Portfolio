@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Profile from './Profile';
 import FollowSection from './FollowSection';
 import About from './About';
@@ -9,8 +9,7 @@ import Education from './Education';
 import Reference from './Reference';
 import ContactMe from './ContactMe';
 
-class Content extends Component {
-  render() {
+const Content = () => {
     return (
         <div className="page-content">
             <div>
@@ -50,7 +49,6 @@ class Content extends Component {
             </div>
       </div>
     );
-  }
 }
 
 export default Content;

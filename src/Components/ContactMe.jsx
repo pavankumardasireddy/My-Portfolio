@@ -71,10 +71,7 @@ class ContactMe extends Component {
           .catch((error)=>{
             console.log("Error, with message::",error)
           }); 
-      }
-        
-      
-           
+      }  
     }
   }
 

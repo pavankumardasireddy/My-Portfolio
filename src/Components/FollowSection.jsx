@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class FollowSection extends Component {
-  render() {
+const FollowSection = () => {
     return (
         <div className="container">
             <div className="button-container">
@@ -15,7 +14,6 @@ class FollowSection extends Component {
             </div>
         </div>
     );
-  }
 }
 
 export default FollowSection;

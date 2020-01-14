@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Skills extends Component {
-  render() {
+const Skills = () => {
     return (
         <div className="container">
             <div className="h4 text-center mb-4 title">Professional Skills</div>
@@ -103,7 +102,6 @@ class Skills extends Component {
             </div>
         </div>
     );
-  }
 }
 
 export default Skills;

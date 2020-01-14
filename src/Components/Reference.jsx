@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Reference extends Component {
-  render() {
+const Reference = () => {
     return (
         <div className="container cc-reference">
             <div className="h4 mb-4 text-center title">References</div>
@@ -51,7 +50,6 @@ class Reference extends Component {
             </div>
         </div>
     );
-  }
 }
 
 export default Reference;

@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class About extends Component {
-  render() {
+const About = () => {
     return (
         <div className="container">
             <div className="card" data-aos="fade-up" data-aos-offset={10}>
@@ -44,7 +43,6 @@ class About extends Component {
             </div>
         </div>
     );
-  }
 }
 
 export default About;

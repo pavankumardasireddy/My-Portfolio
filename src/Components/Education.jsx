@@ -29,7 +29,7 @@ const Education = () => {
             <div className="h4 text-center mb-4 title">Educational Details</div>
             {
                 data.education.map((edu, key)=> {
-                    return <Edu edu={edu} />
+                    return <Edu edu={edu} key={edu.qualification}/>
                 })
             }
         </div>

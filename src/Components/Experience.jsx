@@ -29,7 +29,7 @@ const Experience = () => {
       {
         data.experience.map((data, key)=>{
           return <section>
-            <WorkExperience data={data} />
+            <WorkExperience data={data} key={data.companyName}/>
           </section>
         })
       }

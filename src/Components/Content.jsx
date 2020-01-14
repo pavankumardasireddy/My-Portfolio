@@ -6,8 +6,8 @@ import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Experience from './Experience';
 import Education from './Education';
-import Reference from './Reference';
 import ContactMe from './ContactMe';
+// import Reference from './Reference';
 
 const Content = () => {
     return (

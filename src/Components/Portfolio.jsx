@@ -49,7 +49,7 @@ const Portfolio = () => {
                 {
                   data.col1.map((project, key) => {
                     return <section>
-                      <Projects project={project}/>
+                      <Projects project={project} key={project.projectName}/>
                     </section>
                   })
                 }
@@ -58,7 +58,7 @@ const Portfolio = () => {
                 {
                   data.col2.map((project, key) => {
                     return <section>
-                      <Projects project={project}/>
+                      <Projects project={project} key={project.projectName}/>
                     </section>
                   })
                 }

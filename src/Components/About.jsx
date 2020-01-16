@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const about = () => {
     return (
         <div className="container">
             <div className="card" data-aos="fade-up" data-aos-offset={10}>
@@ -45,4 +45,4 @@ const About = () => {
     );
 }
 
-export default About;
+export default about;

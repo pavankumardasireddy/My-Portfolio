@@ -23,7 +23,7 @@ const Edu = ({edu}) => {
     )
 }
 
-const Education = () => {
+const education = () => {
     return (
         <div className="container cc-education">
             <div className="h4 text-center mb-4 title">Educational Details</div>
@@ -36,4 +36,4 @@ const Education = () => {
     );
 }
 
-export default Education;
+export default education;

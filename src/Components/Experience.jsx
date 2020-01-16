@@ -22,7 +22,7 @@ const WorkExperience = ({ data }) => {
   )
 }
 
-const Experience = () => {
+const experience = () => {
   return (
     <div className="container cc-experience">
       <div className="h4 text-center mb-4 title">Work Experience</div>
@@ -37,4 +37,4 @@ const Experience = () => {
   );
 }
 
-export default Experience;
+export default experience;

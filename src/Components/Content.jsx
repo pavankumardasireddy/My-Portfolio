@@ -9,7 +9,7 @@ import Education from './Education';
 import ContactMe from './ContactMe';
 // import Reference from './Reference';
 
-const Content = () => {
+const content = () => {
     return (
         <div className="page-content">
             <div>
@@ -51,4 +51,4 @@ const Content = () => {
     );
 }
 
-export default Content;
+export default content;

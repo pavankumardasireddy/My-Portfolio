@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const header = () => {
     return (
         <div className="profile-page sidebar-collapse">
             <nav className="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll={400}>
@@ -26,4 +26,4 @@ const Header = () => {
     );
 }
 
-export default Header;
+export default header;

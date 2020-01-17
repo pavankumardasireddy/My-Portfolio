@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Skills = () => {
+const skills = () => {
     return (
         <div className="container">
             <div className="h4 text-center mb-4 title">Professional Skills</div>
@@ -104,5 +104,4 @@ const Skills = () => {
     );
 }
 
-export default Skills;
-
+export default skills;

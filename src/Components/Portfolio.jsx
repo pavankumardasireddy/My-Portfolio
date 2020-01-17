@@ -26,7 +26,7 @@ const Projects = ({ project }) => {
   )
 }
 
-const Portfolio = () => {
+const portfolio = () => {
   return (
     <div className="container">
       <div className="row">
@@ -171,4 +171,4 @@ const Portfolio = () => {
   );
 }
 
-export default Portfolio;
+export default portfolio;

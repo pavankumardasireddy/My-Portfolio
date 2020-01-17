@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FollowSection = () => {
+const followSection = () => {
     return (
         <div className="container">
             <div className="button-container">
@@ -16,4 +16,4 @@ const FollowSection = () => {
     );
 }
 
-export default FollowSection;
+export default followSection;

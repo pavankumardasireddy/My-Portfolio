@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Reference = () => {
+const reference = () => {
     return (
         <div className="container cc-reference">
             <div className="h4 mb-4 text-center title">References</div>
@@ -52,4 +52,4 @@ const Reference = () => {
     );
 }
 
-export default Reference;
+export default reference;

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Typed from 'typed.js';
 import data from '../staticData';
 
-const Profile = () => {
+const profile = () => {
   useEffect(() => {
     new Typed('#typed', {
       strings: ['Fullstack Developer', 'Freelancer', 'Gamer','Travel lover'],
@@ -33,4 +33,4 @@ const Profile = () => {
   );
 }
 
-export default Profile;
+export default profile;
